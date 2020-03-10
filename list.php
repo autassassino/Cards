@@ -42,6 +42,7 @@ if($_SESSION['username'] == 'username') {
  print("<br>");
  print("Country: ");
  print("<input type=\"text\" name=\"country\">");
+ echo "<a href=\"delete.php?id=" . $row["id"] . "\">DELETE</a>"; 
  print("<br>");
  print("");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
