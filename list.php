@@ -13,8 +13,6 @@ if($_SESSION['username'] == 'username') {
  echo $row["name"] . " ";
  echo $row["street_address"] . " ";
  echo $row["zip"] . " ";
-GIT Exercises 8 (14)
-29.12.2018
  echo $row["city"] . " ";
  echo $row["state"] . " ";
  echo $row["country"] . " ";
@@ -24,6 +22,7 @@ GIT Exercises 8 (14)
  } else {
  echo "0 results";
  }
+ print("<br><br>");
  print("</html>");
  mysqli_close($conn);
 } else {
